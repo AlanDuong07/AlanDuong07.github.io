@@ -1,3 +1,11 @@
+//variables
+$rose-madder: #DA2F3A;
+$large-header: 50px;
+$medium-header: 40px;
+$normal-text: 20px;
+
+$standard-margin: 50px;
+
 #nav {
     position: sticky;
     top: 0;
@@ -13,8 +21,47 @@
     border-radius: 20px;
     /* border: 1px solid white; */
 }
+
+
+//HOME PAGE DIVS
 #intro {
     grid-area: intro;
+    #intro-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: $standard-margin $standard-margin;
+        #intro-content {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            /* border: 1px solid blue; */
+            max-width: 500px;
+            h3 {
+                font-size: 30px;
+                /* border: 1px solid blue; */
+                margin-bottom: 15px;
+                color: rgb(170, 167, 167)
+            }
+    
+            h5 {
+                font-size: $large-header;
+                /* border: 1px solid blue; */
+                margin-top: 0px;
+                margin-bottom: 25px;
+            }
+        }
+    
+        #intro-image {
+            /* border: 1px solid red; */
+            img {
+                width: 500px;
+            }
+            
+        }
+    }  
+    
 }
 
 #portfolio {
@@ -35,4 +82,20 @@
 
 #contact {
     grid-area: contact;
+}
+
+
+//OTHER COMPONENTS
+.button {
+    text-decoration: none;
+    background-color: $rose-madder;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: $normal-text;
+    cursor: pointer;
+    &:hover{
+        background-color: white;
+        color: $rose-madder;
+    }
 }
