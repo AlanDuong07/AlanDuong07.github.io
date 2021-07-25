@@ -11,7 +11,7 @@ $standard-margin: 50px;
     position: sticky;
     top: 0;
     width: 87%;
-    height: 500px;
+    height: fit-content;
     margin: 0 20px;
     background-color: #141321;
     border-radius: 20px;
@@ -20,7 +20,7 @@ $standard-margin: 50px;
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        height: 420px;
+        height: fit-content;
         margin: 40px 40px;
         img {
             width: 90px;
@@ -33,9 +33,9 @@ $standard-margin: 50px;
             margin-bottom: 3px;
         }
 
-        a {
+        #college {
             font-size: 15px;
-            color: white;
+            color: rgb(163, 159, 159);
             text-decoration: none;
             &:hover {
                 color: $rose-madder;
@@ -58,6 +58,32 @@ $standard-margin: 50px;
                 &#github-icon {
                     margin-top: 18px;
                 }
+            }
+        }
+
+        #nav-links-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            /* border: 1px solid $rose-madder; */
+            width: 100%;
+            margin-top: 20px;
+            height: fit-content;
+
+            .nav-link {
+                margin-bottom:10px;
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                }
+                a:hover {
+                    color: $rose-madder;
+                }
+            }
+
+            .nav-link:last-child {
+                margin-bottom: 0px;
             }
         }
     }
