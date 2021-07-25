@@ -1,0 +1,37 @@
+.app {
+    display: flex;
+    justify-contents: center;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    max-width: 1440px;
+    height: auto;
+    
+    background-color: transparent;
+}
+
+.nav-container {
+    width: 22%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.home-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    //once you've added projects to your portfolio, make the portfolio area auto. 
+    grid-template-rows: 400px 600px 400px 400px 500px;
+    grid-template-areas: 
+        'intro intro'
+        'portfolio portfolio'
+        'skills softwares'
+        'about about'
+        'contact contact';
+    row-gap: 20px;
+    column-gap: 20px;
+    width: 78%;
+    /* border: 1px solid cyan; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

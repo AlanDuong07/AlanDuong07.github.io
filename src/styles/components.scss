@@ -1,0 +1,38 @@
+#nav {
+    position: sticky;
+    top: 0;
+    width: auto;
+    height: 500px;
+    margin: 0 20px;
+    background-color: #141321;
+    border-radius: 20px;
+}
+
+.grid-item {
+    background-color: #141321;
+    border-radius: 20px;
+    /* border: 1px solid white; */
+}
+#intro {
+    grid-area: intro;
+}
+
+#portfolio {
+    grid-area: portfolio;
+}
+
+#skills {
+    grid-area: skills;
+}
+ 
+#softwares {
+    grid-area: softwares;
+}
+
+#about {
+    grid-area: about;
+}
+
+#contact {
+    grid-area: contact;
+}
