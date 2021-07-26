@@ -1,5 +1,7 @@
 //variables
 $rose-madder: #DA2F3A;
+$xiketic-dark: #020013;
+$xiketic-light: #141321;
 $large-header: 50px;
 $medium-header: 40px;
 $normal-text: 20px;
@@ -13,7 +15,7 @@ $standard-margin: 50px;
     width: 87%;
     height: fit-content;
     margin: 0 20px;
-    background-color: #141321;
+    background-color: $xiketic-light;
     border-radius: 20px;
     #nav-wrapper {
         display: flex;
@@ -89,8 +91,30 @@ $standard-margin: 50px;
     }
 }
 
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 60px;
+    padding: 0;
+    width: 100%;
+    background-color: $xiketic-light;
+    
+    p {
+        color: rgb(128, 127, 127);
+        margin-bottom: 10px;
+        a {
+            text-decoration: none;
+            &:hover{
+                color: $rose-madder;
+            }
+        }
+    }
+}
 .grid-item {
-    background-color: #141321;
+    background-color: $xiketic-light;
     border-radius: 20px;
     /* border: 1px solid white; */
 }
