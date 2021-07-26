@@ -31,7 +31,7 @@ function nav() {
                         <a href="#about">About</a>
                     </div>
                     <div className="nav-link">
-                        <a href="#contact">Get in touch</a>
+                        <a href="#contact">Contact Me</a>
                     </div>
                 </div>
             </div>
