@@ -5,16 +5,19 @@ $xiketic-light: #141321;
 $large-header: 50px;
 $medium-header: 40px;
 $normal-text: 20px;
+$small-text: 16px;
 
-$standard-margin: 50px;
+$standard-margin: 60px;
+$medium-margin: 45px;
 
 #nav {
     display: inline-block;
     position: sticky;
     top: 0;
-    width: 87%;
+    width: fit-content;
     height: fit-content;
-    margin: 0 20px;
+    margin: 0 auto;
+    margin-right: 15px;
     background-color: $xiketic-light;
     border-radius: 20px;
     #nav-wrapper {
@@ -125,7 +128,7 @@ $standard-margin: 50px;
     grid-area: intro;
     #intro-wrapper {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         margin: $standard-margin $standard-margin;
         #intro-content {
@@ -138,7 +141,7 @@ $standard-margin: 50px;
             h3 {
                 font-size: 30px;
                 /* border: 1px solid blue; */
-                margin-bottom: 15px;
+                margin-bottom: 10px;
                 color: rgb(170, 167, 167)
             }
     
@@ -146,7 +149,7 @@ $standard-margin: 50px;
                 font-size: $large-header;
                 /* border: 1px solid blue; */
                 margin-top: 0px;
-                margin-bottom: 25px;
+                margin-bottom: 20px;
             }
         }
     
@@ -163,18 +166,162 @@ $standard-margin: 50px;
 
 #portfolio {
     grid-area: portfolio;
+
+    #portfolio-wrapper {
+        /* border: 1px solid $rose-madder; */
+        display: flex;
+        flex-direction: column;
+        margin: $standard-margin $standard-margin;
+        width: auto;
+        //once the portfolio is populated, change the height to auto :)
+        height: auto;
+
+        h3 {
+            font-size: $medium-header;
+            margin-bottom: 30px;
+            width: fit-content;
+            border-bottom: 2px solid $rose-madder;
+        }
+
+        #project-grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            grid-gap: 15px;
+            .project-card {
+                /* background-color: $rose-madder; */
+                /* border: 1px solid white; */
+                width: auto;
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: start;
+                    text-decoration: none;
+                    &:hover {
+                        h2 {
+                            color:$rose-madder;
+                        }
+                        #right-arrow {
+                            opacity: 100%;
+                            color: white;
+                        }
+                    }
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        margin-bottom: 10px;
+                        border-radius: 20px;
+                    }
+                    h2 {
+                        font-size: $normal-text;
+                    }
+                    #right-arrow {
+                        opacity: 40%;
+                    }
+                    p {
+                        font-size:$small-text;
+                        opacity: 50%;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+
+    }
 }
 
 #skills {
     grid-area: skills;
+    #skills-wrapper {
+        /* border: 1px solid $rose-madder; */
+        display: flex;
+        flex-direction: column;
+        margin: $medium-margin $standard-margin;
+        width: auto;
+        height: auto;
+
+        h3 {
+            font-size: $medium-header;
+            margin-bottom: 20px;
+            border-bottom: 2px solid $rose-madder;
+            width: fit-content;
+        }
+        ul {
+            li {
+                list-style-type: none;
+                font-size: $normal-text;
+                margin-bottom: 15px;
+            }
+        }
+    }
 }
  
 #softwares {
     grid-area: softwares;
+    #softwares-wrapper {
+        /* border: 1px solid $rose-madder; */
+        display: flex;
+        flex-direction: column;
+        margin: $medium-margin $standard-margin;
+        width: auto;
+        height: auto;
+
+        h3 {
+            font-size: $medium-header;
+            padding: 0px 0px 4px 0px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid $rose-madder;
+            width: fit-content;
+        }
+        ul {
+            li {
+                list-style-type: none;
+                font-size: $normal-text;
+                margin-bottom: 15px;
+            }
+        }
+    }
 }
 
 #about {
     grid-area: about;
+    #about-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: $medium-margin $standard-margin;
+        height: auto;
+        /* border: 1px solid blue; */
+        #about-content {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            /* border: 1px solid blue; */
+            max-width: 650px;
+            h3 {
+                font-size: $medium-header;
+                margin-bottom: 20px;
+                width: fit-content;
+                border-bottom: 2px solid $rose-madder;
+            }
+            p {
+                font-size: $small-text;
+                margin-bottom: 20px;
+                line-height: 160%;
+            }
+        }
+    
+        #about-image {
+            /* border: 1px solid red; */
+            img {
+                width: 300px;
+                border-radius: 20px
+            }
+            
+        }
+    }
 }
 
 #contact {
@@ -196,3 +343,5 @@ $standard-margin: 50px;
         color: $rose-madder;
     }
 }
+
+//for projectitem component, see the #project-grid above in the portfolio styling

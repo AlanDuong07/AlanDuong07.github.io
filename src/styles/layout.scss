@@ -10,6 +10,7 @@
 }
 
 .nav-container {
+    display: flex;
     width: 22%;
     height: auto;
     /* border: 1px solid red; */
@@ -17,19 +18,21 @@
     margin-bottom: 30px;
 }
 
-.home-container {
+
+
+//PAGES LAYOUT HERE
+.homepage-container {
     display: grid;
-    grid-template-columns: auto auto;
-    //once you've added projects to your portfolio, make the portfolio area auto. 
-    grid-template-rows: 400px 600px 400px 400px 500px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px auto auto auto 500px;
     grid-template-areas: 
         'intro intro'
         'portfolio portfolio'
         'skills softwares'
         'about about'
         'contact contact';
-    row-gap: 20px;
-    column-gap: 20px;
+    row-gap: 15px;
+    column-gap: 15px;
     width: 78%;
     /* border: 1px solid cyan; */
     margin-top: 30px;

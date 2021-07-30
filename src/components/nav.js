@@ -28,6 +28,9 @@ function nav() {
                         <a href="#skills">Skills</a>
                     </div>
                     <div className="nav-link">
+                        <a href="#softwares">Languages</a>
+                    </div>
+                    <div className="nav-link">
                         <a href="#about">About</a>
                     </div>
                     <div className="nav-link">

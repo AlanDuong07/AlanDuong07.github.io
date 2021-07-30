@@ -1,32 +1,25 @@
+import React, { Fragment } from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './styles/main.scss'; 
-import Nav from './components/nav';
-import Intro from './components/intro';
-import Portfolio from './components/portfolio';
-import Skills from './components/skills';
-import Softwares from './components/softwares';
-import About from './components/about';
-import Contact from './components/contact';
-import Footer from './components/footer';
+
+import Nav from './components/nav.js';
+import Footer from './components/footer.js';
+import Homepage from './components/homepage/homepage.js';
+
 
 function App() {
   return (
-    <div className="app">
-      <div className="app-container">
-        <div className="nav-container">
-          <Nav/>
+    <Router>
+      <div className="app">
+        <div className="app-container">
+          <div className="nav-container">
+            <Nav/>
+          </div>
+          <Route exact path="/" component={Homepage}/>
         </div>
-        <div className="home-container">
-          <Intro/>
-          <Portfolio/>
-          <Skills/>
-          <Softwares/>
-          <About/>
-          <Contact/>
-
-        </div>
+        <Footer/>
       </div>
-      <Footer/>
-    </div>
+    </Router>
   );
 }
 
