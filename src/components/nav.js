@@ -36,6 +36,11 @@ function nav() {
                     <div className="nav-link">
                         <a href="#contact">Contact Me</a>
                     </div>
+                    <div className="nav-link">
+                        <a href="https://drive.google.com/file/d/1lbveuvIZYWQECwq6RF4Mu_pciNs0VpOz/view?usp=sharing" target="_blank">
+                            Resume
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

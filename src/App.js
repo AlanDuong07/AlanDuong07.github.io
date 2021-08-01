@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './styles/main.scss'; 
 
+
+
 import Nav from './components/nav.js';
 import Footer from './components/footer.js';
 import Homepage from './components/homepage/homepage.js';

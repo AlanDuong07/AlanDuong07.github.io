@@ -7,14 +7,14 @@ function about() {
                 <div id="about-content">
                     <h3>About</h3>
                     <p>
-                    A native Houstonian, my journey with software engineering began my freshman year of college, in the midst of the 
+                    My journey with software engineering began my freshman year of college, in the midst of the 
                     wide reaching, devastating Covid-19 pandemic. During this time, the immense impact that software applications had
-                    in allowing me to still have a college education inspired me to join and contribute to the
+                    in allowing me to still pursue a college education inspired me to join and contribute to the
                     wonderful, collaborative community of developers. Since then, I've worked on a diverse range of projects, including
                     coding a python PDF text and curve parser for voting ballots,
                     redesigning and adding responsive design to the Rice Computer Science club website, 
                     and
-                    developing an accessible, eye-catching Big Commerce-based eCommerce website for a top wholesale designer fragrance distributer.
+                    developing an accessible, eye-catching Big Commerce-based eCommerce website for a top designer fragrance distributer.
                     <br></br>
                     <br></br>
                     A favorite quote of mine: 
@@ -31,10 +31,14 @@ function about() {
                     -Alan J. Perlis (April 1, 1922-February 7, 1990)
                     <br></br>
                     <br></br>
-                    It's my belief that as developers, we stand on the shoulders of giants. It's up to us to 
+                    As developers, we stand on the shoulders of giants. It's up to us to 
                     never lose that sense of wonder and optimism that they laid down as a foundation for us.
                     </p>
-                    <a href="#" className="button">Download Resume</a>
+                    <a href="https://drive.google.com/file/d/1lbveuvIZYWQECwq6RF4Mu_pciNs0VpOz/view?usp=sharing" 
+                        className="button"
+                        target="_blank">
+                        View Resume
+                    </a>
                 </div>
                 <div id="about-image">
                     <img src={AlanPic} alt="Picture of Alan"/>
