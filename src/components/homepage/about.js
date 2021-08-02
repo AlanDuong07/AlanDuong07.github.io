@@ -29,10 +29,6 @@ function about() {
                     What's in your hands, I think and hope, is intelligence: the ability to see the machine as more than when you were first led up to it, that you can make it more.''
                     <br></br>
                     -Alan J. Perlis (April 1, 1922-February 7, 1990)
-                    <br></br>
-                    <br></br>
-                    As developers, we stand on the shoulders of giants. It's up to us to 
-                    never lose that sense of wonder and optimism that they laid down as a foundation for us.
                     </p>
                     <a href="https://drive.google.com/file/d/1lbveuvIZYWQECwq6RF4Mu_pciNs0VpOz/view?usp=sharing" 
                         className="button"
