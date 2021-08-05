@@ -7,6 +7,7 @@ import './styles/main.scss';
 import Nav from './components/nav.js';
 import Footer from './components/footer.js';
 import Homepage from './components/homepage/homepage.js';
+import Pdfparser from "./components/Projects/pdfparser/pdfparser.js";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Nav/>
           </div>
           <Route exact path="/" component={Homepage}/>
+          <Route exact path="/pdfparser/" component={Pdfparser}/>
         </div>
         <Footer/>
       </div>

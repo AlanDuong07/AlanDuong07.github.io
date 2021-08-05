@@ -19,22 +19,22 @@ function nav() {
                 </div>
                 <div id="nav-links-wrapper">
                     <div className="nav-link">
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                     </div>
                     <div className="nav-link">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="/#portfolio">Portfolio</a>
                     </div>
                     <div className="nav-link">
-                        <a href="#skills">Skills</a>
+                        <a href="/#skills">Skills</a>
                     </div>
                     <div className="nav-link">
-                        <a href="#softwares">Languages</a>
+                        <a href="/#softwares">Languages</a>
                     </div>
                     <div className="nav-link">
-                        <a href="#about">About</a>
+                        <a href="/#about">About</a>
                     </div>
                     <div className="nav-link">
-                        <a href="#contact">Contact Me</a>
+                        <a href="/#contact">Contact Me</a>
                     </div>
                     <div className="nav-link">
                         <a href="https://drive.google.com/file/d/1lbveuvIZYWQECwq6RF4Mu_pciNs0VpOz/view?usp=sharing" target="_blank">
