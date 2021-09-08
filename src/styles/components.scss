@@ -126,11 +126,16 @@ $medium-margin: 45px;
 //HOME PAGE DIVS 
 #intro {
     grid-area: intro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     #intro-wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 90%;
         margin: $standard-margin $standard-margin;
+        // border: 1px solid red;
         #intro-content {
             display: flex;
             flex-direction: column;
@@ -154,9 +159,11 @@ $medium-margin: 45px;
         }
     
         #intro-image {
-            /* border: 1px solid red; */
+            // border: 1px solid red;
+            width: 50%;
+            min-width: 300px;
             img {
-                width: 500px;
+                width: 100%;
             }
             
         }
