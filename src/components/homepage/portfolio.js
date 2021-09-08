@@ -19,26 +19,6 @@ function portfolio() {
                         linkto="/"
                         image={BigFloppa} 
                         title="Big Floppa Website" 
-                        description="A personal website for Big Floppa, built in React.js."/>
-                    <ProjectCard 
-                        linkto="/"
-                        image={BigFloppa} 
-                        title="Big Floppa Website" 
-                        description="A personal website for Big Floppa, built in React.js."/>
-                    <ProjectCard 
-                        linkto="/"
-                        image={BigFloppa} 
-                        title="Big Floppa Website" 
-                        description="A personal website for Big Floppa, built in React.js."/>
-                    <ProjectCard 
-                        linkto="/"
-                        image={BigFloppa} 
-                        title="Big Floppa Website" 
-                        description="A personal website for Big Floppa, built in React.js."/>
-                    <ProjectCard 
-                        linkto="/"
-                        image={BigFloppa} 
-                        title="Big Floppa Website" 
                         description="A personal website for Big Floppa, built in React.js."/>   
                 </div>
             </div>}
