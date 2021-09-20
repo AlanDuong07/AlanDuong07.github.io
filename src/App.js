@@ -4,11 +4,12 @@ import './styles/main.scss';
 
 
 
-import Nav from './components/nav.js';
-import Footer from './components/footer.js';
-import Homepage from './components/homepage/homepage.js';
-import Pdfparser from "./components/Projects/pdfparser/pdfparser.js";
-
+import Nav from './components/nav.jsx';
+import Footer from './components/footer.jsx';
+import Homepage from './components/homepage/homepage.jsx';
+import Pdfparser from './components/Projects/pdfparser.jsx';
+import Swipo from './components/Projects/swipo.jsx';
+import NotJustPerfume from './components/Projects/notjustperfume.jsx';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           </div>
           <Route exact path="/" component={Homepage}/>
           <Route exact path="/pdfparser/" component={Pdfparser}/>
+          <Route exact path="/swipo/" component={Swipo}/>
+          <Route exact path="/notjustperfume/" component={NotJustPerfume}/>
         </div>
         <Footer/>
       </div>
