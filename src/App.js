@@ -12,7 +12,7 @@ import Pdfparser from "./components/Projects/pdfparser/pdfparser.js";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="app">
         <div className="app-container">
           <div className="nav-container">
