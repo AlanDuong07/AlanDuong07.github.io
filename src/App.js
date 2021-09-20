@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 import './styles/main.scss'; 
 
 
@@ -19,7 +19,7 @@ function App() {
             <Nav/>
           </div>
           <Route exact path="/" component={Homepage}/>
-          <Route exact path="/pdfparser/" component={Pdfparser}/>
+          <Route path="/pdfparser" component={Pdfparser}/>
         </div>
         <Footer/>
       </div>
