@@ -2,6 +2,7 @@
 $rose-madder: #DA2F3A;
 $xiketic-dark: #020013;
 $xiketic-light: #141321;
+$opaquewhite: rgba(255, 255, 255, 0.3);
 $large-header: 50px;
 $medium-header: 40px;
 $normal-text: 20px;
@@ -203,8 +204,7 @@ $medium-margin: 45px;
                             color:$rose-madder;
                         }
                         #right-arrow {
-                            opacity: 100%;
-                            color: white;
+                            color: $opaquewhite;
                         }
                     }
                     img {
@@ -217,12 +217,12 @@ $medium-margin: 45px;
                         font-size: $normal-text;
                     }
                     #right-arrow {
-                        opacity: 40%;
+                        color: $opaquewhite;
                     }
                     p {
                         font-size:$small-text;
-                        opacity: 50%;
                         margin-bottom: 20px;
+                        color: rgba(255, 255, 255, 0.5);
                     }
                 }
             }
