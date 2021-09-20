@@ -10,7 +10,7 @@ function portfolio() {
                 <h3>Portfolio</h3>
                 <div id="project-grid">
                     <ProjectCard 
-                        linkto="/pdfparser"
+                        linkto="/#/pdfparser"
                         image={VotingBallotCardImage} 
                         title="PDF Parser for Voting Ballots" 
                         description="A python PDF parser for voting ballots that retrieves the location of 
