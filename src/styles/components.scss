@@ -126,16 +126,11 @@ $medium-margin: 45px;
 //HOME PAGE DIVS 
 #intro {
     grid-area: intro;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     #intro-wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 90%;
         margin: $standard-margin $standard-margin;
-        // border: 1px solid red;
         #intro-content {
             display: flex;
             flex-direction: column;
@@ -159,11 +154,9 @@ $medium-margin: 45px;
         }
     
         #intro-image {
-            // border: 1px solid red;
-            width: 50%;
-            min-width: 300px;
+            /* border: 1px solid red; */
             img {
-                width: 100%;
+                width: 500px;
             }
             
         }
@@ -192,7 +185,7 @@ $medium-margin: 45px;
 
         #project-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: auto auto auto;
             grid-template-rows: auto auto auto;
             grid-gap: 15px;
             .project-card {

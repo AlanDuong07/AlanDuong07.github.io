@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
     /* border: 1px solid white; */
-    margin: 0 100px;
-    min-width: 1024px;
+    margin: 0 auto;
     max-width: 1440px;
     height: auto;
     
@@ -12,9 +11,9 @@
 
 .nav-container {
     display: flex;
-    width: fit-content;
+    width: 22%;
     height: auto;
-    // border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 30px;
     margin-bottom: 30px;
 }

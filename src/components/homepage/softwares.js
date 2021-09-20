@@ -9,7 +9,7 @@ function softwares() {
                         <li>Javascript, React.js, Express, Node.js</li>
                         <li>HTML, CSS, SASS, Tailwind</li>
                         <li>Python, Django</li>
-                        <li>C, Java</li>
+                        <li>C</li>
                     </ul>
             </div>
         </div>
