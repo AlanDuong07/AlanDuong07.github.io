@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/alanduong07.github.io/static/css/main.e945c1a2.chunk.css",
-    "main.js": "/alanduong07.github.io/static/js/main.d4b13e52.chunk.js",
-    "main.js.map": "/alanduong07.github.io/static/js/main.d4b13e52.chunk.js.map",
-    "runtime-main.js": "/alanduong07.github.io/static/js/runtime-main.76c8aca1.js",
-    "runtime-main.js.map": "/alanduong07.github.io/static/js/runtime-main.76c8aca1.js.map",
-    "static/js/2.7388288e.chunk.js": "/alanduong07.github.io/static/js/2.7388288e.chunk.js",
-    "static/js/2.7388288e.chunk.js.map": "/alanduong07.github.io/static/js/2.7388288e.chunk.js.map",
-    "static/js/3.affec70b.chunk.js": "/alanduong07.github.io/static/js/3.affec70b.chunk.js",
-    "static/js/3.affec70b.chunk.js.map": "/alanduong07.github.io/static/js/3.affec70b.chunk.js.map",
-    "index.html": "/alanduong07.github.io/index.html",
-    "static/css/main.e945c1a2.chunk.css.map": "/alanduong07.github.io/static/css/main.e945c1a2.chunk.css.map",
-    "static/js/2.7388288e.chunk.js.LICENSE.txt": "/alanduong07.github.io/static/js/2.7388288e.chunk.js.LICENSE.txt",
-    "static/media/AlanProfilePic.9389216d.jpg": "/alanduong07.github.io/static/media/AlanProfilePic.9389216d.jpg",
-    "static/media/bigfloppa.846d6b92.png": "/alanduong07.github.io/static/media/bigfloppa.846d6b92.png",
-    "static/media/undraw_coding.4de5659a.svg": "/alanduong07.github.io/static/media/undraw_coding.4de5659a.svg",
-    "static/media/votingballotcardimage.711ee363.png": "/alanduong07.github.io/static/media/votingballotcardimage.711ee363.png"
+    "main.css": "/static/css/main.e945c1a2.chunk.css",
+    "main.js": "/static/js/main.0e08419a.chunk.js",
+    "main.js.map": "/static/js/main.0e08419a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b5712407.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b5712407.js.map",
+    "static/js/2.7388288e.chunk.js": "/static/js/2.7388288e.chunk.js",
+    "static/js/2.7388288e.chunk.js.map": "/static/js/2.7388288e.chunk.js.map",
+    "static/js/3.affec70b.chunk.js": "/static/js/3.affec70b.chunk.js",
+    "static/js/3.affec70b.chunk.js.map": "/static/js/3.affec70b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e945c1a2.chunk.css.map": "/static/css/main.e945c1a2.chunk.css.map",
+    "static/js/2.7388288e.chunk.js.LICENSE.txt": "/static/js/2.7388288e.chunk.js.LICENSE.txt",
+    "static/media/AlanProfilePic.9389216d.jpg": "/static/media/AlanProfilePic.9389216d.jpg",
+    "static/media/bigfloppa.846d6b92.png": "/static/media/bigfloppa.846d6b92.png",
+    "static/media/undraw_coding.4de5659a.svg": "/static/media/undraw_coding.4de5659a.svg",
+    "static/media/votingballotcardimage.711ee363.png": "/static/media/votingballotcardimage.711ee363.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.76c8aca1.js",
+    "static/js/runtime-main.b5712407.js",
     "static/js/2.7388288e.chunk.js",
     "static/css/main.e945c1a2.chunk.css",
-    "static/js/main.d4b13e52.chunk.js"
+    "static/js/main.0e08419a.chunk.js"
   ]
 }
