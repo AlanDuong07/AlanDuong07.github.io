@@ -1,3 +1,7 @@
+# My Personal Website!
+This website was created in React during my sophomore year at Rice, and I built it to show off my software and design projects.
+I reinforced my knowledge of React components and CSS, and will be constantly updating this!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
