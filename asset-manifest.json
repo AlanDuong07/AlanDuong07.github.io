@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.96647e25.chunk.css",
-    "main.js": "/static/js/main.280162a3.chunk.js",
-    "main.js.map": "/static/js/main.280162a3.chunk.js.map",
+    "main.css": "/static/css/main.9a4453da.chunk.css",
+    "main.js": "/static/js/main.14de1d2c.chunk.js",
+    "main.js.map": "/static/js/main.14de1d2c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bb281929.js",
     "runtime-main.js.map": "/static/js/runtime-main.bb281929.js.map",
     "static/js/2.40926f7f.chunk.js": "/static/js/2.40926f7f.chunk.js",
@@ -10,9 +10,11 @@
     "static/js/3.dafbf7b2.chunk.js": "/static/js/3.dafbf7b2.chunk.js",
     "static/js/3.dafbf7b2.chunk.js.map": "/static/js/3.dafbf7b2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.96647e25.chunk.css.map": "/static/css/main.96647e25.chunk.css.map",
+    "static/css/main.9a4453da.chunk.css.map": "/static/css/main.9a4453da.chunk.css.map",
     "static/js/2.40926f7f.chunk.js.LICENSE.txt": "/static/js/2.40926f7f.chunk.js.LICENSE.txt",
     "static/media/AlanProfilePic.9389216d.jpg": "/static/media/AlanProfilePic.9389216d.jpg",
+    "static/media/NJPPortfolioCard.a859f38b.png": "/static/media/NJPPortfolioCard.a859f38b.png",
+    "static/media/SwipoPortfolioImage.ecab9171.png": "/static/media/SwipoPortfolioImage.ecab9171.png",
     "static/media/bigfloppa.846d6b92.png": "/static/media/bigfloppa.846d6b92.png",
     "static/media/undraw_coding.4de5659a.svg": "/static/media/undraw_coding.4de5659a.svg",
     "static/media/votingballotcardimage.711ee363.png": "/static/media/votingballotcardimage.711ee363.png"
@@ -20,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.bb281929.js",
     "static/js/2.40926f7f.chunk.js",
-    "static/css/main.96647e25.chunk.css",
-    "static/js/main.280162a3.chunk.js"
+    "static/css/main.9a4453da.chunk.css",
+    "static/js/main.14de1d2c.chunk.js"
   ]
 }
