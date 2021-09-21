@@ -4,7 +4,7 @@ import BigFloppa from '../../images/projects/bigfloppa.png';
 import VotingBallotCardImage from '../../images/projects/pdfparser/votingballotcardimage.png';
 import SwipoCardImage from '../../images/projects/swipo/SwipoPortfolioImage.png';
 import NJPCardImage from '../../images/projects/NotJustPerfume/NJPPortfolioCard.png';
-//435 by 399 for any images
+//1000 by 917 for any images
 function portfolio() {
     return (
         <div id="portfolio" className="grid-item">

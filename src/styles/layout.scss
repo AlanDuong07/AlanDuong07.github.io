@@ -9,6 +9,9 @@
     justify-content: center;
     // border: 1px solid white;
     margin: 0 100px;
+    @media (max-width: 1024px) {
+        margin: 0 5px;
+    }
     max-width: 1440px;
     height: auto;
     background-color: transparent;

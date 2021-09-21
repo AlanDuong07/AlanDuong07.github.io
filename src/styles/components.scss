@@ -5,6 +5,7 @@ $xiketic-light: #141321;
 $opaquewhite: rgba(255, 255, 255, 0.3);
 $large-header: 50px;
 $medium-header: 40px;
+$small-header: 30px;
 $normal-text: 20px;
 $small-text: 16px;
 
@@ -21,6 +22,10 @@ $medium-margin: 45px;
     margin-right: 15px;
     background-color: $xiketic-light;
     border-radius: 20px;
+    @media (max-width: 1024px) {
+        position: absolute;
+        display: none;
+    }
     #nav-wrapper {
         display: flex;
         flex-direction: column;
@@ -166,6 +171,9 @@ $medium-margin: 45px;
                 @media (max-width: 1440px) {
                     width: 400px;
                 }
+                @media (max-width: 1024px) {
+                    width: 250px;
+                }
             }
             
         }
@@ -197,10 +205,12 @@ $medium-margin: 45px;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: auto auto auto;
             grid-gap: 15px;
+            @media (max-width: 1024px) {
+                grid-template-columns: 1fr 1fr;
+            }
             .project-card {
                 /* background-color: $rose-madder; */
-                /* border: 1px solid white; */
-                width: auto;
+                // border: 1px solid white;
                 a {
                     display: flex;
                     flex-direction: column;
@@ -217,7 +227,6 @@ $medium-margin: 45px;
                     }
                     img {
                         width: 100%;
-                        height: 100%;
                         margin-bottom: 10px;
                         border-radius: 20px;
                     }
@@ -268,7 +277,7 @@ $medium-margin: 45px;
 #softwares {
     grid-area: softwares;
     #softwares-wrapper {
-        /* border: 1px solid $rose-madder; */
+        // border: 1px solid $rose-madder;
         display: flex;
         flex-direction: column;
         margin: $medium-margin $standard-margin;
@@ -277,10 +286,15 @@ $medium-margin: 45px;
 
         h3 {
             font-size: $medium-header;
+            @media (max-width: 1024px) {
+                font-size: $small-header;
+                margin-top: 7px;
+            }
             padding: 0px 0px 4px 0px;
             margin-bottom: 20px;
             border-bottom: 2px solid $rose-madder;
             width: fit-content;
+            // border-top: 1px solid green;
         }
         ul {
             li {
