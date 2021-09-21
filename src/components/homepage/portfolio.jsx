@@ -11,17 +11,17 @@ function portfolio() {
             {<div id="portfolio-wrapper">
                 <h3>Portfolio</h3>
                 <div id="project-grid">
+                <ProjectCard 
+                        linkto="/#/swipo"
+                        image={SwipoCardImage} 
+                        title="Swipo" 
+                        description="A music discovery app that makes finding new music fast and fun."/>
                     <ProjectCard 
                         linkto="/#/pdfparser"
                         image={VotingBallotCardImage} 
                         title="PDF Parser for Voting Ballots" 
                         description="A python PDF parser for voting ballots that retrieves the location of 
                             every word and bubble"/>
-                    <ProjectCard 
-                        linkto="/#/swipo"
-                        image={SwipoCardImage} 
-                        title="Swipo" 
-                        description="A music discovery app that makes finding new music fast and fun."/>
                     <ProjectCard 
                         linkto="/#/notjustperfume"
                         image={NJPCardImage} 
