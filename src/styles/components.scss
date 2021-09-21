@@ -127,37 +127,45 @@ $medium-margin: 45px;
 //HOME PAGE DIVS 
 #intro {
     grid-area: intro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid purple;
     #intro-wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        // border: 1px solid green;
         margin: $standard-margin $standard-margin;
-        #intro-content {
+        #intro-text {
             display: flex;
             flex-direction: column;
             align-items: start;
             justify-content: center;
-            /* border: 1px solid blue; */
+            // border: 1px solid blue;
             max-width: 500px;
             h3 {
                 font-size: 30px;
-                /* border: 1px solid blue; */
+                // border: 1px solid blue;
                 margin-bottom: 10px;
                 color: rgb(170, 167, 167)
             }
     
             h5 {
                 font-size: $large-header;
-                /* border: 1px solid blue; */
+                // border: 1px solid blue;
                 margin-top: 0px;
                 margin-bottom: 20px;
             }
         }
     
         #intro-image {
-            /* border: 1px solid red; */
+            // border: 1px solid red;
             img {
                 width: 500px;
+                @media (max-width: 1440px) {
+                    width: 400px;
+                }
             }
             
         }
@@ -314,6 +322,7 @@ $medium-margin: 45px;
         }
     
         #about-image {
+            margin-left: 50px;
             /* border: 1px solid red; */
             img {
                 width: 300px;

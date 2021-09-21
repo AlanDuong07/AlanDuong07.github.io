@@ -6,7 +6,7 @@ function intro() {
     return (
         <div id="intro" className="grid-item">
             <div id="intro-wrapper">
-                <div id="intro-content">
+                <div id="intro-text">
                     <h3>Alan Duong</h3>
                     <h5>Software Engineer</h5>
                     <a href="https://drive.google.com/file/d/1lbveuvIZYWQECwq6RF4Mu_pciNs0VpOz/view?usp=sharing" 
