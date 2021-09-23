@@ -30,7 +30,7 @@ function about() {
                     <br></br>
                     -Alan J. Perlis (April 1, 1922-February 7, 1990)
                     </p>
-                    <a href="https://drive.google.com/file/d/1lbveuvIZYWQECwq6RF4Mu_pciNs0VpOz/view?usp=sharing" 
+                    <a href="https://drive.google.com/file/d/1S7h3uDedXRm-xvv05Va6XGdhdSY4M4e-/view?usp=sharing" 
                         className="button"
                         target="_blank">
                         View Resume

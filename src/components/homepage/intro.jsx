@@ -9,7 +9,7 @@ function intro() {
                 <div id="intro-text">
                     <h3>Alan Duong</h3>
                     <h5>Software Engineer</h5>
-                    <a href="https://drive.google.com/file/d/1lbveuvIZYWQECwq6RF4Mu_pciNs0VpOz/view?usp=sharing" 
+                    <a href="https://drive.google.com/file/d/1S7h3uDedXRm-xvv05Va6XGdhdSY4M4e-/view?usp=sharing" 
                         className="button"
                         target="_blank">
                         View Resume
