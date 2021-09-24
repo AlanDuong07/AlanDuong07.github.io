@@ -41,6 +41,17 @@ $opaquewhite: rgba(255, 255, 255, 0.3);
         'skills softwares'
         'about about'
         'contact contact';
+    @media (max-width: 768px) {
+        grid-template-columns: 98%;
+        grid-template-rows: auto auto auto auto auto 500px;
+        grid-template-areas: 
+        'intro'
+        'portfolio'
+        'skills'
+        'softwares'
+        'about'
+        'contact';
+    }
     row-gap: 15px;
     column-gap: 15px;
     width: 78%;
