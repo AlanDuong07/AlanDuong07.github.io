@@ -34,7 +34,7 @@ $opaquewhite: rgba(255, 255, 255, 0.3);
 .homepage-container {
     display: grid;
     grid-template-columns: 48.5% 48.5%;
-    grid-template-rows: 400px auto auto auto 500px;
+    grid-template-rows: 400px auto auto auto;
     grid-template-areas: 
         'intro intro'
         'portfolio portfolio'
@@ -43,7 +43,7 @@ $opaquewhite: rgba(255, 255, 255, 0.3);
         'contact contact';
     @media (max-width: 768px) {
         grid-template-columns: 98%;
-        grid-template-rows: auto auto auto auto auto 500px;
+        grid-template-rows: auto auto auto auto auto;
         grid-template-areas: 
         'intro'
         'portfolio'

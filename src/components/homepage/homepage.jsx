@@ -15,7 +15,7 @@ function homepage() {
             <Skills/>
             <Softwares/>
             <About/>
-            <Contact/>
+            {/* <Contact/> */}
         </div>
     )
 }
