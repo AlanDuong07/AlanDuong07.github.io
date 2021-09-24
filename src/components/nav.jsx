@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link';
 import AlanProfilePic from '../images/AlanProfilePic.jpg';
 import GithubIcon from '../images/GitHub-white-logo-sm.png';
 import LinkedInIcon from '../images/linked-in-icon-white.png';
@@ -19,22 +20,22 @@ function nav() {
                 </div>
                 <div id="nav-links-wrapper">
                     <div className="nav-link">
-                        <a href="/">Home</a>
+                        <HashLink to="/#intro">Home</HashLink>
                     </div>
                     <div className="nav-link">
-                        <a href="/#portfolio">Portfolio</a>
+                        <HashLink to="/#portfolio">Portfolio</HashLink>
                     </div>
                     <div className="nav-link">
-                        <a href="/#skills">Skills</a>
+                        <HashLink to="/#skills">Skills</HashLink>
                     </div>
                     <div className="nav-link">
-                        <a href="/#softwares">Languages</a>
+                        <HashLink to="/#softwares">Languages</HashLink>
                     </div>
                     <div className="nav-link">
-                        <a href="/#about">About</a>
+                        <HashLink to="/#about">About</HashLink>
                     </div>
                     <div className="nav-link">
-                        <a href="/#contact">Contact Me</a>
+                        <HashLink to="/#contact">Contact Me</HashLink>
                     </div>
                     <div className="nav-link">
                         <a href="https://drive.google.com/file/d/1S7h3uDedXRm-xvv05Va6XGdhdSY4M4e-/view?usp=sharing" target="_blank">

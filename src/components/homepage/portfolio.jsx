@@ -15,7 +15,7 @@ function portfolio() {
                         linkto="/#/swipo"
                         image={SwipoCardImage} 
                         title="Swipo" 
-                        description="A music discovery app that makes finding new music fast and fun."/>
+                        description="A music discovery app that makes finding new music fast and fun, built using React.js and Spotify's API."/>
                     <ProjectCard 
                         linkto="/#/pdfparser"
                         image={VotingBallotCardImage} 

@@ -3,7 +3,7 @@ import { HashRouter as Router, Route, Link } from "react-router-dom";
 import './styles/main.scss'; 
 
 import Nav from './components/nav.jsx';
-import Hamburger from './components/Hamburger.jsx';
+import MobileNav from './components/mobileNav.jsx';
 import Footer from './components/footer.jsx';
 import Homepage from './components/homepage/homepage.jsx';
 import Pdfparser from './components/Projects/pdfparser.jsx';
@@ -17,7 +17,7 @@ function App() {
         <div className="app-container">
           <div className="nav-container">
             <Nav/>
-            
+            <MobileNav/>
           </div>
           <Route exact path="/" component={Homepage}/>
           <Route exact path="/pdfparser/" component={Pdfparser}/>
