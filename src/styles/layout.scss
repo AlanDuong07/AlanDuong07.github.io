@@ -51,10 +51,14 @@ $opaquewhite: rgba(255, 255, 255, 0.3);
         'softwares'
         'about'
         'contact';
+
     }
     row-gap: 15px;
     column-gap: 15px;
     width: 78%;
+    @media (max-width: 768px) {
+        width: 90%;
+    }
     // border: 1px solid cyan;
     margin-top: 30px;
     margin-bottom: 30px;
