@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9a04c57.chunk.css",
-    "main.js": "/static/js/main.dae52152.chunk.js",
-    "main.js.map": "/static/js/main.dae52152.chunk.js.map",
+    "main.css": "/static/css/main.851f100b.chunk.css",
+    "main.js": "/static/js/main.77eaf0bb.chunk.js",
+    "main.js.map": "/static/js/main.77eaf0bb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.573a9848.js",
     "runtime-main.js.map": "/static/js/runtime-main.573a9848.js.map",
     "static/js/2.5e7ec96f.chunk.js": "/static/js/2.5e7ec96f.chunk.js",
@@ -10,10 +10,11 @@
     "static/js/3.fa4d708e.chunk.js": "/static/js/3.fa4d708e.chunk.js",
     "static/js/3.fa4d708e.chunk.js.map": "/static/js/3.fa4d708e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e9a04c57.chunk.css.map": "/static/css/main.e9a04c57.chunk.css.map",
+    "static/css/main.851f100b.chunk.css.map": "/static/css/main.851f100b.chunk.css.map",
     "static/js/2.5e7ec96f.chunk.js.LICENSE.txt": "/static/js/2.5e7ec96f.chunk.js.LICENSE.txt",
     "static/media/AlanProfilePic.9389216d.jpg": "/static/media/AlanProfilePic.9389216d.jpg",
     "static/media/NJPPortfolioCard.9dab1982.png": "/static/media/NJPPortfolioCard.9dab1982.png",
+    "static/media/RiceCSClubCardImage.88885d32.png": "/static/media/RiceCSClubCardImage.88885d32.png",
     "static/media/SwipoPortfolioImage.ce43b4d7.png": "/static/media/SwipoPortfolioImage.ce43b4d7.png",
     "static/media/bigfloppa.846d6b92.png": "/static/media/bigfloppa.846d6b92.png",
     "static/media/close.9f829dbe.svg": "/static/media/close.9f829dbe.svg",
@@ -24,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.573a9848.js",
     "static/js/2.5e7ec96f.chunk.js",
-    "static/css/main.e9a04c57.chunk.css",
-    "static/js/main.dae52152.chunk.js"
+    "static/css/main.851f100b.chunk.css",
+    "static/js/main.77eaf0bb.chunk.js"
   ]
 }
