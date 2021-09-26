@@ -9,7 +9,7 @@ import Homepage from './components/homepage/homepage.jsx';
 import Pdfparser from './components/Projects/pdfparser.jsx';
 import Swipo from './components/Projects/swipo.jsx';
 import NotJustPerfume from './components/Projects/notjustperfume.jsx';
-
+import RiceCSClubWebsite from './components/Projects/ricecsclubwebsite.jsx';
 function App() {
   return (
     <Router>
@@ -23,6 +23,7 @@ function App() {
           <Route exact path="/pdfparser/" component={Pdfparser}/>
           <Route exact path="/swipo/" component={Swipo}/>
           <Route exact path="/notjustperfume/" component={NotJustPerfume}/>
+          <Route exact path="/ricecsclubwebsite/" component={RiceCSClubWebsite}/>
         </div>
         <Footer/>
       </div>

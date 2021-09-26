@@ -4,6 +4,7 @@ import BigFloppa from '../../images/projects/bigfloppa.png';
 import VotingBallotCardImage from '../../images/projects/pdfparser/votingballotcardimage.png';
 import SwipoCardImage from '../../images/projects/swipo/SwipoPortfolioImage.png';
 import NJPCardImage from '../../images/projects/NotJustPerfume/NJPPortfolioCard.png';
+import RiceCSClubCardImage from '../../images/projects/RiceCSClub/RiceCSClubCardImage.png';
 //1000 by 917 for any images
 function portfolio() {
     return (
@@ -26,7 +27,12 @@ function portfolio() {
                         linkto="/#/notjustperfume"
                         image={NJPCardImage} 
                         title="NotJustPerfume Theme" 
-                        description="An eCommerce theme I improved using HTML, CSS, and vanilla JS."/> 
+                        description="An eCommerce theme I improved using HTML, CSS, and vanilla JS."/>
+                    <ProjectCard 
+                        linkto="/#/ricecsclubwebsite"
+                        image={RiceCSClubCardImage} 
+                        title="Rice CS Club Website" 
+                        description="A club website I redesigned, refactored, and added responsive design to using React.js and Tailwind.css."/> 
                 </div>
             </div>}
         </div>
