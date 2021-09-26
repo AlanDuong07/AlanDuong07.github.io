@@ -11,12 +11,13 @@ $opaquewhite: rgba(255, 255, 255, 0.3);
 .app-container {
     display: flex;
     justify-content: center;
-    // border: 1px solid white;
+    border: 1px solid white;
     margin: 0 100px;
+    width: fit-content;
     @media (max-width: 1024px) {
-        margin: 0 5px;
+        margin: 0;
     }
-    max-width: 1440px;
+    max-width: 1500px;
     height: auto;
     background-color: transparent;
 }
@@ -33,7 +34,7 @@ $opaquewhite: rgba(255, 255, 255, 0.3);
 //PAGES LAYOUT HERE
 .homepage-container {
     display: grid;
-    grid-template-columns: 48.5% 48.5%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 400px auto auto auto;
     grid-template-areas: 
         'intro intro'
@@ -42,7 +43,7 @@ $opaquewhite: rgba(255, 255, 255, 0.3);
         'about about'
         'contact contact';
     @media (max-width: 768px) {
-        grid-template-columns: 98%;
+        grid-template-columns: 100%;
         grid-template-rows: auto auto auto auto auto;
         grid-template-areas: 
         'intro'

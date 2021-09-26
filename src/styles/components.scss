@@ -386,7 +386,7 @@ $medium-margin: 45px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: $medium-margin $standard-margin;
+        margin: $medium-margin 60px;
         height: auto;
         // border: 1px solid blue;
         @media (max-width: 1440px) {
@@ -394,6 +394,9 @@ $medium-margin: 45px;
             justify-content: center;
             align-items: start;
 
+        }
+        @media (max-width: 475px) {
+            margin: $medium-margin 35px;
         }
         #about-content {
             display: flex;
