@@ -2,6 +2,14 @@ $rose-madder: #DA2F3A;
 $xiketic-dark: #020013;
 $xiketic-light: #141321;
 $opaquewhite: rgba(255, 255, 255, 0.3);
+$large-header: 50px;
+$medium-header: 40px;
+$small-header: 30px;
+$normal-text: 20px;
+$small-text: 16px;
+
+$standard-margin: 60px;
+$medium-margin: 45px;
 * {
     color: white;
     font-family: "Inter", sans-serif;
@@ -26,4 +34,9 @@ code {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+p {
+    font-size: $small-text;
+    margin-bottom: 20px;
+    line-height: 160%;
 }

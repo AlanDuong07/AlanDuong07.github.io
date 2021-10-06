@@ -185,28 +185,29 @@ $medium-margin: 45px;
 .grid-item {
     background-color: $xiketic-light;
     border-radius: 20px;
-    /* border: 1px solid white; */
+    // border: 1px solid white;
 }
 
 
 //HOME PAGE DIVS 
-#intro {
+.intro {
     grid-area: intro;
     display: flex;
     justify-content: center;
     align-items: center;
     // border: 1px solid purple;
-    #intro-wrapper {
+    .intro-wrapper {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+        width: 100%;
         // border: 1px solid green;
         margin: $standard-margin $standard-margin;
         @media (max-width: 768px) {
             flex-direction: column;
             justify-content: center;
         }
-        #intro-text {
+        .intro-text {
             display: flex;
             flex-direction: column;
             align-items: start;
@@ -232,7 +233,7 @@ $medium-margin: 45px;
             }
         }
     
-        #intro-image {
+        .intro-image {
             // border: 1px solid red;
             img {
                 width: 500px;
@@ -468,5 +469,62 @@ $medium-margin: 45px;
         color: $rose-madder;
     }
 }
+
+.projectPage {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+            'intro'
+            'projectSummary';
+    @media (max-width: 768px) {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        'intro'
+        'projectSummary';
+    }
+    width: 78%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    row-gap: 15px;
+    column-gap: 15px;
+    .projectIntroImage {
+        // border: 1px solid green;
+        img {
+            max-width: 350px;
+            margin-left: 20px;
+            @media (max-width: 768px) {
+                margin-left: 0;
+            }
+        }
+    }
+    .projectSummary {
+        grid-area: projectSummary;
+        // border: 1px solid blue;
+        .projectSummaryWrapper {
+            display: flex;
+            flex-direction: column;
+            margin: $medium-margin $standard-margin;
+            @media (max-width: 475px) {
+                margin: $medium-margin 35px;
+            }
+            // border: 1px solid red;
+            h3 {
+                // border: 1px solid red;
+                width: fit-content;
+                font-size: $medium-header;
+                margin-bottom: 10px;
+                border-bottom: 2px solid $rose-madder;
+                padding-bottom: 3px;
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        width: 90%;
+    }
+}
+
+
 
 //for projectitem component, see the #project-grid above in the portfolio styling

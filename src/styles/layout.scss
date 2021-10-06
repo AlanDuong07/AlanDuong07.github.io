@@ -2,6 +2,14 @@ $rose-madder: #DA2F3A;
 $xiketic-dark: #020013;
 $xiketic-light: #141321;
 $opaquewhite: rgba(255, 255, 255, 0.3);
+$large-header: 50px;
+$medium-header: 40px;
+$small-header: 30px;
+$normal-text: 20px;
+$small-text: 16px;
+
+$standard-margin: 60px;
+$medium-margin: 45px;
 .app {
     display: flex;
     flex-direction: column;
@@ -11,11 +19,12 @@ $opaquewhite: rgba(255, 255, 255, 0.3);
 .app-container {
     display: flex;
     justify-content: center;
-    border: 1px solid white;
+    // border: 1px solid white;
     margin: 0 100px;
-    width: fit-content;
+    width: 90%;
     @media (max-width: 1024px) {
         margin: 0;
+        width:100%;
     }
     max-width: 1500px;
     height: auto;
