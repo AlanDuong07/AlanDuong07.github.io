@@ -1,31 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.be36e9aa.chunk.css",
-    "main.js": "/static/js/main.bd2828c1.chunk.js",
-    "main.js.map": "/static/js/main.bd2828c1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.573a9848.js",
-    "runtime-main.js.map": "/static/js/runtime-main.573a9848.js.map",
-    "static/js/2.af4e30e8.chunk.js": "/static/js/2.af4e30e8.chunk.js",
-    "static/js/2.af4e30e8.chunk.js.map": "/static/js/2.af4e30e8.chunk.js.map",
-    "static/js/3.fa4d708e.chunk.js": "/static/js/3.fa4d708e.chunk.js",
-    "static/js/3.fa4d708e.chunk.js.map": "/static/js/3.fa4d708e.chunk.js.map",
+    "main.css": "/static/css/main.bbb54203.css",
+    "main.js": "/static/js/main.7fba7a35.js",
+    "static/js/787.269bd698.chunk.js": "/static/js/787.269bd698.chunk.js",
+    "static/media/AlanProfilePic.jpg": "/static/media/AlanProfilePic.9389216d7ad2dbb87006.jpg",
+    "static/media/SwipoPortfolioImage.png": "/static/media/SwipoPortfolioImage.ce43b4d75fc185aacedf.png",
+    "static/media/NJPPortfolioCard.png": "/static/media/NJPPortfolioCard.9dab19829ee9259e3d6a.png",
+    "static/media/bigfloppa.png": "/static/media/bigfloppa.846d6b92f4e8c791b792.png",
+    "static/media/votingballotcardimage.png": "/static/media/votingballotcardimage.946dba03ad8dc7925a6c.png",
+    "static/media/RiceCSClubCardImage.png": "/static/media/RiceCSClubCardImage.88885d326d44745c6294.png",
+    "static/media/undraw_coding.svg": "/static/media/undraw_coding.4de5659a23946d2f4d35406913fab1c7.svg",
+    "static/media/hamburger.svg": "/static/media/hamburger.8c004292b9e0d8b6a5d63f9e22e94556.svg",
     "index.html": "/index.html",
-    "static/css/main.be36e9aa.chunk.css.map": "/static/css/main.be36e9aa.chunk.css.map",
-    "static/js/2.af4e30e8.chunk.js.LICENSE.txt": "/static/js/2.af4e30e8.chunk.js.LICENSE.txt",
-    "static/media/AlanProfilePic.9389216d.jpg": "/static/media/AlanProfilePic.9389216d.jpg",
-    "static/media/NJPPortfolioCard.9dab1982.png": "/static/media/NJPPortfolioCard.9dab1982.png",
-    "static/media/RiceCSClubCardImage.88885d32.png": "/static/media/RiceCSClubCardImage.88885d32.png",
-    "static/media/SwipoPortfolioImage.ce43b4d7.png": "/static/media/SwipoPortfolioImage.ce43b4d7.png",
-    "static/media/bigfloppa.846d6b92.png": "/static/media/bigfloppa.846d6b92.png",
-    "static/media/close.9f829dbe.svg": "/static/media/close.9f829dbe.svg",
-    "static/media/hamburger.8c004292.svg": "/static/media/hamburger.8c004292.svg",
-    "static/media/undraw_coding.4de5659a.svg": "/static/media/undraw_coding.4de5659a.svg",
-    "static/media/votingballotcardimage.946dba03.png": "/static/media/votingballotcardimage.946dba03.png"
+    "static/media/close.svg": "/static/media/close.9f829dbea39731db81140261f0f3f969.svg",
+    "main.bbb54203.css.map": "/static/css/main.bbb54203.css.map",
+    "main.7fba7a35.js.map": "/static/js/main.7fba7a35.js.map",
+    "787.269bd698.chunk.js.map": "/static/js/787.269bd698.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.573a9848.js",
-    "static/js/2.af4e30e8.chunk.js",
-    "static/css/main.be36e9aa.chunk.css",
-    "static/js/main.bd2828c1.chunk.js"
+    "static/css/main.bbb54203.css",
+    "static/js/main.7fba7a35.js"
   ]
 }
